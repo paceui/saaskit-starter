@@ -1,0 +1,111 @@
+@import "./typography.css";
+@import "tw-animate-css";
+@import "tailwindcss";
+@import "./components.css";
+
+@plugin "daisyui";
+
+@theme inline {
+    --color-sidebar-background: var(--layout-sidebar-background);
+    --color-topbar-background: var(--layout-topbar-background);
+}
+
+@plugin "daisyui/theme" {
+    name: "dark";
+    color-scheme: dark;
+    prefersdark: true;
+
+    /* == Base Colors == */
+    --color-base-100: #16181a;
+    --color-base-200: #222426;
+    --color-base-300: #2c2e30;
+    --color-base-content: #fbfcfd;
+
+    /* == Colors == */
+    --color-primary: #f0f4f8;
+    --color-primary-content: #000000;
+    --color-secondary: #9c5de8;
+    --color-secondary-content: #ffffff;
+    --color-accent: #00d3bb;
+    --color-accent-content: #f3fbf6;
+    --color-neutral: #1e2832;
+    --color-neutral-content: #fafcff;
+    --color-info: #14b4ff;
+    --color-info-content: #ffffff;
+    --color-success: #0bbf58;
+    --color-success-content: #ffffff;
+    --color-warning: #f5a524;
+    --color-warning-content: #150a00;
+    --color-error: #f31260;
+    --color-error-content: #ffffff;
+
+    /* == Sizes == */
+    --radius-field: 0.25rem;
+    --radius-box: 0.25rem;
+    --rounded-box: 0.25rem;
+    --radius-selector: 0.25rem;
+    --size-selector: 0.25rem;
+    --size-field: 0.25rem;
+    --border: 1px;
+    --card-p: 20px;
+    --card-fs: var(--text-base);
+
+    /* == Other Options == */
+    --depth: 0;
+    --noise: 0;
+
+    /* == Layout Colors == */
+    --root-bg: #0f1011;
+    --layout-sidebar-background: #171819;
+    --layout-topbar-background: #151617;
+}
+
+@plugin "daisyui/theme" {
+    name: "light";
+    default: true;
+    color-scheme: light;
+
+    /* == Base Colors == */
+    --color-base-100: #ffffff;
+    --color-base-200: #eef0f2;
+    --color-base-300: #e0e2e4;
+    --color-base-content: #1a1c1e;
+
+    /* == Colors == */
+    --color-primary: #000000;
+    --color-primary-content: #ffffff;
+    --color-secondary: #9c5de8;
+    --color-secondary-content: #ffffff;
+    --color-accent: #00d3bb;
+    --color-accent-content: #f3fbf6;
+    --color-neutral: #1e2832;
+    --color-neutral-content: #fafcff;
+    --color-info: #14b4ff;
+    --color-info-content: #ffffff;
+    --color-success: #0bbf58;
+    --color-success-content: #ffffff;
+    --color-warning: #f5a524;
+    --color-warning-content: #150a00;
+    --color-error: #f31260;
+    --color-error-content: #ffffff;
+
+    /* == Sizes == */
+    --radius-field: 0.25rem;
+    --radius-box: 0.25rem;
+    --rounded-box: 0.25rem;
+    --radius-selector: 0.25rem;
+    --size-selector: 0.25rem;
+    --size-field: 0.25rem;
+    --border: 1px;
+    --card-p: 20px;
+    --card-fs: var(--text-base);
+
+    /* == Other Options == */
+    --depth: 0;
+    --noise: 0;
+
+    /* == Layout Colors == */
+    --root-bg: #fafbfc;
+    --layout-sidebar-background: #fefeff;
+    --layout-topbar-background: #ffffff;
+}

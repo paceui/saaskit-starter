@@ -1,0 +1,17 @@
+/** Importing font files: Google Fonts **/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900;950;1000&display=swap");
+
+/** Typography config for tailwindcss **/
+@theme {
+    --font-sans: "DM Sans", sans-serif;
+
+    --text-xs: 12px;
+    --text-sm: 14px;
+    --text-base: 16px;
+    --text-lg: 18px;
+    --text-xl: 20px;
+}
+
+body {
+    @apply font-sans text-base;
+}

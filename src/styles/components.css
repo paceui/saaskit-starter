@@ -1,0 +1,11 @@
+html {
+    @apply scroll-smooth;
+}
+
+@utility container {
+    @apply mx-auto;
+}
+
+@utility btn {
+    @apply font-medium;
+}
