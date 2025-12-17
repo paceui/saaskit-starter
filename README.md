@@ -4,7 +4,7 @@
 
 ### The Open Source boilerplate for TanStack Start & Better-Auth.
 
-[![TanStack Start](https://img.shields.io/badge/TanStack%20Start-blue?style=flat&logo=react)](https://tanstack.com/router/latest)
+[![TanStack Start](https://img.shields.io/badge/TanStack%20Start-blue?style=flat&logo=react)](https://tanstack.com/start/latest)
 [![Better Auth](https://img.shields.io/badge/Better--Auth-green?style=flat)](https://better-auth.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css)](https://tailwindcss.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript)](https://www.typescriptlang.org/)
