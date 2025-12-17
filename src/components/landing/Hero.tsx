@@ -12,14 +12,15 @@ export const Hero = () => {
                         className="border-base-300 flex items-center gap-2 rounded-full border px-3 py-0.5 text-sm font-medium"
                         href="#pricing">
                         <div className="bg-base-content/20 size-1.5 rounded-full"></div>
-                        <p>Rebrand + OSS Starter</p>
+                        <p>Think, Ship, Grow</p>
                     </a>
-                    <h1 className="mt-4 text-3xl leading-[1.25] font-bold tracking-tight text-balance sm:text-4xl md:text-5xl 2xl:text-7xl">
-                        Launch your next SaaS idea faster with our modular kit
+                    <h1 className="mt-4 text-3xl leading-tight font-bold tracking-tight text-balance sm:text-4xl md:text-5xl 2xl:text-7xl">
+                        Launch your next SaaS idea faster with power that scales
                     </h1>
-                    <h2 className="text-base-content/70 mt-4 text-sm text-balance sm:mt-6 sm:text-lg md:text-xl lg:mt-8">
-                        A production-ready TanStack starter with type-safe modules for core SaaS features. Skip the
-                        complex setup and launch your next great idea in just days.
+                    <h2 className="text-base-content/80 mt-4 max-w-6xl text-sm text-balance sm:mt-6 sm:text-lg md:text-xl lg:mt-8">
+                        Your all in one foundation for SaaS, built on{" "}
+                        <span className="text-base-content font-semibold">TanStack Start</span> with ready modules that
+                        help you launch in days instead of months for steady growth
                     </h2>
                     <div className="mt-6 flex flex-wrap justify-center gap-4 max-sm:items-center sm:mt-8 xl:mt-12 xl:gap-6 2xl:mt-16">
                         <Link to={Links.home} className="btn btn-primary btn-lg shadow-primary/10 gap-3 shadow-xl">

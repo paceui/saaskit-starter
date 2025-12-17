@@ -8,7 +8,6 @@ import { z } from "zod";
 import { FormInput } from "@/components/forms/FormInput.tsx";
 import { FormPasswordInput } from "@/components/forms/FormPasswordInput.tsx";
 import { authClient } from "@/features/auth/client.ts";
-import { saveSessionUser } from "@/features/auth/server.ts";
 import { Links } from "@/lib/links.ts";
 
 const schema = z.object({
@@ -35,12 +34,6 @@ export const SignInForm = () => {
             startTransition(async () => {
                 const { data, error } = await authClient.signIn.email(value);
                 if (data) {
-                    await saveSessionUser({
-                        data: {
-                            user: data.user,
-                            token: data.token,
-                        },
-                    });
                     await navigate({ to: Links.home });
                 } else if (error) {
                     if (error.code === "INVALID_EMAIL") {

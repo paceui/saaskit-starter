@@ -1,14 +1,33 @@
 ![og.jpg](public/og.jpg)
 
-SaaSKit is a modular starter kit designed to help developers quickly build and scale web applications.  
-It includes core features like authentication, database integration, storage, and documentation scaffolding—all structured for easy customization and extensibility.
+### **The Open Source boilerplate for TanStack Start & Better-Auth.**  
+
+Stop wasting 3-4 hours setting up the basics. SaaSKit Starter provides a production-ready foundation with Authentication and Admin Layouts pre-configured, so you can skip the setup and start building your SaaS.
+
+![TanStack Start](https://img.shields.io/badge/TanStack%20Start-blue)
+![Better Auth](https://img.shields.io/badge/Better--Auth-green)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6)
+
+## ✨ Features
+
+- **TanStack Start Integrated:** Server-side rendering and static generation ready.
+- **Authentication Ready:** Complete **Better-Auth** setup with functional **Sign In** and **Sign Up** UIs.
+- **Admin Layout:** A responsive, sidebar-navigation layout ready for your dashboard.
+- **UI Components:** Styled with Tailwind CSS and **Lucide Icons**.
+- **Modular Architecture:** Designed to be easily extended or stripped down.
 
 ## Setup
 
 To get started, clone the repository and install dependencies:
 
 ```shell
-cd saaskit
+cd saaskit-starter
+```
+
+To migrate the database.
+```shell
+ npx @better-auth/cli@latest migrate --config=src/features/auth/auth.ts
 ```
 
 ```shell

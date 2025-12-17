@@ -8,9 +8,3 @@ export type IUser = {
     updatedAt: Date;
 };
 
-declare module "@/lib/session" {
-    interface SessionData {
-        user?: IUser;
-        token?: string;
-    }
-}
