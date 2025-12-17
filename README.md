@@ -9,7 +9,6 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css)](https://tailwindcss.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript)](https://www.typescriptlang.org/)
 
-
 Stop wasting 3-4 hours setting up the basics. **SaaSKit Starter** provides a production-ready foundation with Authentication and Admin Layouts pre-configured, so you can skip the setup and start building your SaaS.
 
 ## ✨ Features
