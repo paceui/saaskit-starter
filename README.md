@@ -28,7 +28,7 @@ Follow these steps to get your project up and running locally.
 Clone the repository and install the dependencies.
 
 ```bash
-git clone [https://github.com/paceui/saaskit-starter.git](https://github.com/paceui/saaskit-starter.git)
+git clone https://github.com/paceui/saaskit-starter.git
 cd saaskit-starter
 npm install
 ```
